@@ -1,0 +1,87 @@
+.container{
+    display : grid;
+    grid-template-columns: 500px 300px  ;
+    grid-template-rows: 310px 150px 600px;
+    grid-gap: 20px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    color: #2d3748;
+}
+
+#profile{
+    
+    
+    border-radius: 50%;
+   
+    
+}
+
+header{
+    display:flexbox;
+    background-color: #63b3ed;
+    color: #ffffff;
+    grid-row: 1;
+    justify-content: center;
+    position: relative;
+    width: 1250px;
+    
+    
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    padding-left: 450px;
+    
+}
+
+.blog_titles{
+    font-size: 32px;
+    color: #48bb78;
+}
+
+h3{
+    color: #718096;
+}
+
+.about{
+    background-color: #e2e8f0;
+}
+
+li{
+    color: #4299e1;
+}
+
+#social{
+    color: #48bb78;
+}
+
+#archives{
+    color :#48bb78
+}
+
+footer{
+    background-color: #2c5282;
+    grid-row: 25;
+    color: #ffffff;
+    width: 1250px;
+}
+
+aside{
+    width: 400px;
+    padding-left: 300px;
+    padding-top: 350px;
+    align-self: left;
+}
+
+main{
+    grid-row: 2;
+    padding-left: 60px;
+}
+
+#quote{
+    padding-left: 550px;
+}
+
+
